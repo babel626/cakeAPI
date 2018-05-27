@@ -71,4 +71,8 @@ class EventsTable extends Table
 
         return $validator;
     }
+
+    public function getAll(){
+        return $this->find();
+    }
 }
